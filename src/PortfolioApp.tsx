@@ -1,5 +1,5 @@
 import NavBar from './layout/NavBar'
-import { Banner, Skills, Projects } from './components'
+import { Banner, Contact, Skills, Projects, Footer } from './components'
 
 const PortfolioApp = () => {
   return (
@@ -8,6 +8,8 @@ const PortfolioApp = () => {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }
