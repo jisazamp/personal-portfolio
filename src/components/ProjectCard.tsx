@@ -21,11 +21,9 @@ export const ProjectCard = ({
           <h4>{title}</h4>
           <span>{description}</span>
           {link && (
-            <button>
-              <a target='_blank' href={link}>
-                Preview
-              </a>
-            </button>
+            <a target='_blank' href={link}>
+              Preview
+            </a>
           )}
         </div>
       </div>

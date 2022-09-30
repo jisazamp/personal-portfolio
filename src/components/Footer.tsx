@@ -25,11 +25,6 @@ export const Footer = () => {
             sm={12}
             className='text-center text-sm-end'
           >
-            <div className='social-icon'>
-              <a href='#'>
-                <img src={navIcon1} alt='Icon' />
-              </a>
-            </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>

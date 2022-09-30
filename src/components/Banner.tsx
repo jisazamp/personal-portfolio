@@ -7,18 +7,22 @@ export const Banner = () => {
   return (
     <section className='banner' id='home'>
       <Container>
-        <Row className='aligh-items-center'>
+        <Row style={{ marginTop: '2rem' }} className='aligh-items-center'>
           <Col xs={12} md={6} xl={7}>
             <div>
               <span className='tagline'>Welcome to my Portfolio</span>
               <h1>Hi! I'm Juan Pablo, Software Engineer</h1>
               <p>
-                I'm a qualified and professional software engineer with two
-                years of experience working in the education management
-                industry. Passionate about programming and generating solutions
-                through technology.
+                I'm a qualified professional with two years of experience
+                working in the education management industry. Passionate about
+                programming and generating solutions through technology.
               </p>
-              <button className='mb-4' onClick={() => console.log('connect')}>
+              <button
+                className='mb-4'
+                onClick={() =>
+                  document.getElementById('connect')?.scrollIntoView()
+                }
+              >
                 Let’s Connect <ArrowRightCircle size={25} />
               </button>
             </div>

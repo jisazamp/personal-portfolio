@@ -24,7 +24,7 @@ export const projects2: Project[] = [
   {
     description: 'Search and filter Rick & Morty characters',
     imgUrl: projImg8,
-    link: 'https://jpi-advice-generator.netlify.app/',
+    link: 'https://jpi-rickandmorty.netlify.app/',
     title: 'Rick & Morty App',
   },
 ]
