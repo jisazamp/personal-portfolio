@@ -42,12 +42,7 @@ export const Skills = () => {
                 className='owl-carousel owl-theme skill-slider'
               >
                 {skills.map((skill) => (
-                  <CarouselItem
-                    img={skill.img}
-                    key={skill.id}
-                    level={skill.level}
-                    text={skill.text}
-                  />
+                  <CarouselItem key={skill.id} {...skill} />
                 ))}
               </Carousel>
             </div>

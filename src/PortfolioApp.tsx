@@ -1,5 +1,5 @@
 import NavBar from './layout/NavBar'
-import { Banner, Skills } from './components'
+import { Banner, Skills, Projects } from './components'
 
 const PortfolioApp = () => {
   return (
@@ -7,6 +7,7 @@ const PortfolioApp = () => {
       <NavBar />
       <Banner />
       <Skills />
+      <Projects />
     </div>
   )
 }

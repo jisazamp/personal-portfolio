@@ -461,6 +461,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
+  padding: 0 10px;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -470,6 +471,20 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+.proj-txtx button {
+  background-color: white;
+  border-radius: 8px;
+  display: block;
+  margin: 8px auto;
+  padding: 3px;
+  width: 80%;
+}
+
+.proj-txtx button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
