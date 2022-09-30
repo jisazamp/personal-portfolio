@@ -1,7 +1,7 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import headerImg from '../assets/img/header-img.svg'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
 import 'animate.css'
+import headerImg from '../assets/img/header-img.svg'
+import { Container, Row, Col } from 'react-bootstrap'
+import { ArrowRightCircle } from 'react-bootstrap-icons'
 
 export const Banner = () => {
   return (
@@ -16,9 +16,7 @@ export const Banner = () => {
                 I'm a qualified and professional software engineer with two
                 years of experience working in the education management
                 industry. Passionate about programming and generating solutions
-                through technology. I'm looking for a position where I can grow
-                and combine my development skills in a close business and
-                customer environment.
+                through technology.
               </p>
               <button className='mb-4' onClick={() => console.log('connect')}>
                 Let’s Connect <ArrowRightCircle size={25} />
