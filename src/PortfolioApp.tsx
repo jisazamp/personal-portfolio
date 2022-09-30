@@ -1,5 +1,11 @@
+import NavBar from './layout/NavBar'
+
 const PortfolioApp = () => {
-  return <div>PortfolioApp</div>
+  return (
+    <div className='App'>
+      <NavBar />
+    </div>
+  )
 }
 
 export default PortfolioApp

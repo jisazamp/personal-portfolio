@@ -9,8 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@types/react-router-hash-link": "^2.4.5",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.9.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-router-hash-link": "^2.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
