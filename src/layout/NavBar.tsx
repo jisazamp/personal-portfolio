@@ -100,7 +100,7 @@ const NavBar = () => {
                 </a>
               </div>
               <HashLink to='#connect'>
-                <button className='vvd'>
+                <button className='vvd' onClick={() => setIsExpanded(false)}>
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>
