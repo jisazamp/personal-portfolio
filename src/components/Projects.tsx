@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from 'react-bootstrap'
 import { ProjectCard } from './ProjectCard'
 import { projects, projects2 } from '../data/projects'
 
-import colorSharp2 from '../assets/img/color-sharp2.png'
+import colorSharp2 from '../assets/img/color-sharp2.webp'
 import 'animate.css'
 
 export const Projects = () => {
