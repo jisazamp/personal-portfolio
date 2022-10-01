@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false)
 
   useEffect(() => {
     const onScroll = () => {
@@ -26,17 +27,36 @@ const NavBar = () => {
 
   const onUpdateActiveLink = (value: string) => {
     setActiveLink(value)
+    setIsExpanded(false)
   }
 
   return (
     <Router>
-      <Navbar expand='md' className={scrolled ? 'scrolled' : ''}>
+      <Navbar
+        expanded={isExpanded}
+        expand='md'
+        className={scrolled ? 'scrolled' : ''}
+      >
         <Container>
           <Navbar.Brand href='/'>
             <img src={logo} alt='Logo' />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav'>
-            <span className='navbar-toggler-icon'></span>
+
+          <Navbar.Toggle
+            aria-controls='basic-navbar-nav'
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            {isExpanded ? (
+              <span
+                style={{ color: 'white', fontSize: '2.7rem' }}
+                className='close'
+                aria-label='Close'
+              >
+                &times;
+              </span>
+            ) : (
+              <span className='navbar-toggler-icon'></span>
+            )}
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
