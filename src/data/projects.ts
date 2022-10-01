@@ -1,11 +1,11 @@
-import projImg1 from '../assets/img/project-img1.png'
-import projImg2 from '../assets/img/project-img2.png'
-import projImg3 from '../assets/img/project-img3.png'
-import projImg4 from '../assets/img/project-img4.png'
-import projImg5 from '../assets/img/project-img5.png'
-import projImg6 from '../assets/img/project-img6.png'
-import projImg7 from '../assets/img/project-img7.png'
-import projImg8 from '../assets/img/project-img8.png'
+import projImg1 from '../assets/img/project-img1.webp'
+import projImg2 from '../assets/img/project-img2.webp'
+import projImg3 from '../assets/img/project-img3.webp'
+import projImg4 from '../assets/img/project-img4.webp'
+import projImg5 from '../assets/img/project-img5.webp'
+import projImg6 from '../assets/img/project-img6.webp'
+import projImg7 from '../assets/img/project-img7.webp'
+import projImg8 from '../assets/img/project-img8.webp'
 
 type Project = {
   description: string
