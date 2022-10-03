@@ -1,7 +1,6 @@
 import 'react-multi-carousel/lib/styles.css'
 import CarouselItem from './CarouselItem'
 import Carousel from 'react-multi-carousel'
-import colorSharp from '../assets/img/color-sharp.webp'
 import { Container, Col, Row } from 'react-bootstrap'
 import { skills } from '../data/skills'
 
@@ -49,7 +48,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-left' src={colorSharp} alt='Image' />
+      <div className='background-image-left'></div>
     </section>
   )
 }

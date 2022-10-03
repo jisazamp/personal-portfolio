@@ -375,11 +375,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   height: 150px;
 }
 .background-image-left {
+  display: none;
   top: 28%;
   position: absolute;
+  background-image: url('./assets/img/color-sharp.webp');
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+@media (min-width: 40rem) {
+  .background-image-left {
+    display: block;
+  }
 }
 
 /************ Projects Css ************/
