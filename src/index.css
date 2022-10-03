@@ -267,11 +267,18 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.webp');
+  background-image: url('./assets/img/mobile-banner-bg.webp');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (min-width: 40rem) {
+  .banner {
+    background-image: url('./assets/img/banner-bg.webp');
+  }
+}
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -594,11 +601,18 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 10px 0;
-  background-image: url('./assets/img/footer-bg.webp');
+  background-image: url('./assets/img/mobile-footer-bg.webp');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (min-width: 40rem) {
+  .footer {
+    background-image: url('./assets/img/footer-bg.png');
+  }
+}
+
 .footer img {
   width: 40%;
 }
