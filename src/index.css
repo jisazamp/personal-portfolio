@@ -396,6 +396,11 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   position: relative;
   background-color: black;
 }
+@media (min-width: 40rem) {
+  .project {
+    background-color: transparent;
+  }
+}
 .project h2 {
   font-size: 45px;
   font-weight: 700;
@@ -524,10 +529,16 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .background-image-right {
   top: 20%;
   position: absolute;
+
   bottom: 0;
   width: 35%;
   right: 0;
   z-index: -4;
+}
+@media (min-width: 40rem) {
+  .background-image-right {
+    background-image: url('./assets/img/color-sharp2.webp');
+  }
 }
 
 /************ Projects Css ************/

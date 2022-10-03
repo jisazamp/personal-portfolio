@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab, Nav } from 'react-bootstrap'
 import { ProjectCard } from './ProjectCard'
 import { projects, projects2 } from '../data/projects'
 
-import colorSharp2 from '../assets/img/color-sharp2.webp'
 import 'animate.css'
 
 export const Projects = () => {
@@ -54,7 +53,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-right' src={colorSharp2}></img>
+      <div className='background-image-right'></div>
     </section>
   )
 }
