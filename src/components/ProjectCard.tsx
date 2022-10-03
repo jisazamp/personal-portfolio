@@ -22,9 +22,11 @@ export const ProjectCard = ({
         <Card.Img variant='top' src={imgUrl} style={{ height: '200px' }} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text className='w-100'>{description}</Card.Text>
+          <Card.Text className='w-100 m-0' style={{ textAlign: 'justify' }}>
+            {description}
+          </Card.Text>
           <ButtonGroup
-            className='w-100 mt-2'
+            className='w-100 mt-4'
             style={{ border: '1px solid #cacaca' }}
           >
             {repo && (
