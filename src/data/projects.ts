@@ -44,7 +44,7 @@ export const projects: Project[] = [
     description: 'Done as a technical challenge in 7 days.',
     imgUrl: projImg1,
     link: 'https://github.com/jisazamp/hotel-app',
-    repo: 'https://github.com/jisazamp/hotel-app',
+    repo: 'https://jpihotelapp.netlify.app/',
     title: 'HotelApp',
   },
   {

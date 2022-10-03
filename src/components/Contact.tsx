@@ -109,7 +109,7 @@ export const Contact = () => {
                       placeholder='Email address*'
                       name='email'
                     />
-                    {errors.lastName && errors.lastName.type === 'required' && (
+                    {errors.email && (
                       <Alert variant='danger'>
                         Please provide a valid email address
                       </Alert>
@@ -130,7 +130,7 @@ export const Contact = () => {
                       rows={4}
                       placeholder='Message*'
                     ></textarea>
-                    {errors.lastName && (
+                    {errors.message && (
                       <Alert variant='danger'>
                         Message should be a minimum of 10 characters
                       </Alert>
