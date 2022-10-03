@@ -7,6 +7,18 @@
     <title>Juan P. Isaza | Software Engineer</title>
   </head>
   <body>
+    <form
+      name="contactForm"
+      netlify
+      netlify-honeypot='"bot-field'
+      action="/"
+      hidden
+    >
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

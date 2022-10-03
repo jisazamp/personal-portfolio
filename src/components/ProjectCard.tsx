@@ -34,7 +34,7 @@ export const ProjectCard = ({
                 className='btn btn-dark d-flex justify-content-center align-items-center gap-2 p-2'
                 target='_blank'
                 style={{ textDecoration: 'none' }}
-                href={link}
+                href={repo}
               >
                 <FaGithub size={25} /> Repo
               </a>
