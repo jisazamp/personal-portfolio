@@ -11,6 +11,7 @@ type Project = {
   description: string
   imgUrl: string
   link?: string
+  repo?: string
   title: string
 }
 
@@ -19,12 +20,14 @@ export const projects2: Project[] = [
     description: 'Get random advice',
     imgUrl: projImg7,
     link: 'https://jpi-advice-generator.netlify.app/',
+    repo: 'https://github.com/jisazamp/advice-generator-app',
     title: 'Advice Generator',
   },
   {
     description: 'Search and filter Rick & Morty characters',
     imgUrl: projImg8,
     link: 'https://jpi-rickandmorty.netlify.app/',
+    repo: 'https://github.com/jisazamp/rick-and-morty',
     title: 'Rick & Morty App',
   },
 ]
@@ -34,12 +37,14 @@ export const projects: Project[] = [
     description: 'Convert the value of crypto',
     imgUrl: projImg6,
     link: 'https://jpi-cotizador.netlify.app/',
+    repo: 'https://github.com/jisazamp/cotizador-criptomonedas',
     title: 'Cryptocurrency Converter',
   },
   {
     description: 'Done as a technical challenge in 7 days.',
     imgUrl: projImg1,
     link: 'https://github.com/jisazamp/hotel-app',
+    repo: 'https://github.com/jisazamp/hotel-app',
     title: 'HotelApp',
   },
   {
@@ -52,18 +57,21 @@ export const projects: Project[] = [
     description: 'Search GitHub users using the GitHub API',
     imgUrl: projImg2,
     link: 'https://awesome-swirles-a1a0db.netlify.app/',
+    repo: 'https://github.com/jisazamp/github-finder',
     title: 'GitHub Finder',
   },
   {
     description: 'Register patients using local storage',
     imgUrl: projImg4,
     link: 'https://juanisazaveterinaria.netlify.app/',
+    repo: 'https://github.com/jisazamp/citas-veterinaria-react',
     title: 'Seguimiento pacientes',
   },
   {
     description: 'Control expenses using local storage',
     imgUrl: projImg5,
     link: 'https://jpi-controlgastos.netlify.app/',
+    repo: 'https://github.com/jisazamp/control-gastos-react',
     title: 'Expenses Control',
   },
 ]
