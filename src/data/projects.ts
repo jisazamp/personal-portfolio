@@ -6,6 +6,7 @@ import projImg5 from '../assets/img/project-img5.webp'
 import projImg6 from '../assets/img/project-img6.webp'
 import projImg7 from '../assets/img/project-img7.webp'
 import projImg8 from '../assets/img/project-img8.webp'
+import projImg9 from '../assets/img/project-img9.webp'
 
 type Project = {
   description: string
@@ -29,6 +30,12 @@ export const projects2: Project[] = [
     link: 'https://jpi-rickandmorty.netlify.app/',
     repo: 'https://github.com/jisazamp/rick-and-morty',
     title: 'Rick & Morty App',
+  },
+  {
+    description: 'My own version of the CodeWithMosh Vidly App',
+    imgUrl: projImg9,
+    link: 'https://jpividlymovies.netlify.app/movies',
+    title: 'Vidly Movies',
   },
 ]
 
